@@ -1,0 +1,135 @@
+Language: Cpp
+BasedOnStyle: Google  # 使用 Google 风格作为基础
+
+# 控制访问修饰符（public、private等）的偏移
+AccessModifierOffset: -4
+
+# 括号对齐方式
+AlignAfterOpenBracket: Align
+
+# 连续赋值和声明不进行对齐
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+
+# 对齐操作数和尾随注释
+AlignOperands: true
+AlignTrailingComments: true
+
+# 允许函数声明的参数换行
+AllowAllParametersOfDeclarationOnNextLine: true
+
+# 允许短块、短case标签和短函数放在同一行
+AllowShortBlocksOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: InlineOnly
+
+# 禁止短的if语句和循环在同一行
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+# 在返回类型后换行
+AlwaysBreakAfterReturnType: None
+
+# 总是进行字符串换行
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+
+# 参数是否打包到一行
+BinPackArguments: true
+BinPackParameters: true
+
+# 换行规则
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: true
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: false
+
+# 二元操作符前换行
+BreakBeforeBinaryOperators: NonAssignment
+
+# 在大括号前换行，遵循 Allman 风格
+BreakBeforeBraces: Allman
+
+# 三元运算符和构造函数初始化器前换行
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializersBeforeComma: true
+BreakConstructorInitializers: BeforeColon
+
+# 每行字符限制
+ColumnLimit: 120
+
+# 特殊注释规则
+CommentPragmas: '^ IWYU pragma:'
+
+# 构造函数初始化器
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+ConstructorInitializerIndentWidth: 4
+
+# 延续行的缩进
+ContinuationIndentWidth: 4
+
+# C++11初始化列表的大括号样式
+Cpp11BracedListStyle: true
+
+# 指针和引用的对齐方式
+PointerAlignment: Right
+
+# 允许重新排版注释
+ReflowComments: true
+
+# 排序 #include 语句和 using 声明
+SortIncludes: true
+SortUsingDeclarations: true
+
+# C风格类型转换的空格
+SpaceAfterCStyleCast: false
+
+# 模板关键字后添加空格
+SpaceAfterTemplateKeyword: true
+
+# 赋值操作符之前的空格
+SpaceBeforeAssignmentOperators: true
+
+# C++11初始化列表前添加空格
+SpaceBeforeCpp11BracedList: false
+
+# 构造函数初始化器冒号前空格
+SpaceBeforeCtorInitializerColon: true
+
+# 继承冒号前空格
+SpaceBeforeInheritanceColon: true
+
+# 控制语句括号前添加空格
+SpaceBeforeParens: ControlStatements
+
+# 空圆括号不添加空格
+SpaceInEmptyParentheses: false
+
+# 尾随注释前添加空格
+SpacesBeforeTrailingComments: 1
+
+# 尖括号、容器字面量等内外不添加空格
+SpacesInAngles: false
+SpacesInContainerLiterals: false
+SpacesInCStyleCastParentheses: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+
+# C++标准版本
+Standard: c++14
+
+# tab宽度
+TabWidth: 4
+
+# 使用tab字符
+UseTab: Never
+
+# 缩进宽度设置为4
+IndentWidth: 4
