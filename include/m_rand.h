@@ -1,8 +1,4 @@
-#ifndef _M_RAND_H
-#define _M_RAND_H
-
+#pragma once
 // 自定义函数声明
-int my_rand();
+unsigned int my_rand();
 void my_srand(unsigned int seed);
-
-#endif // _M_RAND_H

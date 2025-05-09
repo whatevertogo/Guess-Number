@@ -13,4 +13,4 @@ unsigned int my_rand()
 {
     return static_cast<unsigned int>(rand());
 }
-#endif // _M_RAND_H
+#endif 
