@@ -46,8 +46,8 @@ void PlayGame(Player& player)
 
     } while (guess != random_num);
 
-    player.SetPlay_Time(attempts); // 修正方法名
-    Data::SavePlayerData(player);  // 使用正确的命名空间
+    player.SetPlay_Time(attempts); 
+    Data::SavePlayerData(player); 
 }
 
 unsigned int GetValidInput(unsigned int min, unsigned int max)
